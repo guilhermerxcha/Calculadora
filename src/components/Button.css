@@ -10,3 +10,21 @@
     border-bottom: var(--border-button);
     outline: none;
 }
+
+.button:active{
+    background-color: #ccc;
+}
+.button.double {
+    grid-column: span 2;
+}
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: #Fab231;
+}
+.button.operation.active{
+    background-color: #Fab231;
+}
+
